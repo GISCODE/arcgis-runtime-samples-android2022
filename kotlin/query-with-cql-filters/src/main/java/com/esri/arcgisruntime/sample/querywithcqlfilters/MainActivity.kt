@@ -164,6 +164,7 @@ class MainActivity : AppCompatActivity() {
                     )
                 }
             } else {
+                val temp = ogcFeatureCollectionTable.loadError
                 val errorMessage =
                     "Failed to load OGC Feature Collection Table" + ogcFeatureCollectionTable.loadError.message
                 Toast.makeText(

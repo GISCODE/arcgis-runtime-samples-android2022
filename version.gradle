@@ -1,7 +1,7 @@
 ext {
     // sdk versions
     compileSdkVersion = 31
-    minSdkVersion = 23
+    minSdkVersion = 24
     targetSdkVersion = 31
     versionCode = 10015000
     versionName = '100.14.1.1'
